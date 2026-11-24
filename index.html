@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mart Coffee Ali Eldayery Coffee</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" href="OIP (1).jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#home">
+                Mart Coffee
+                <span>Mart Coffee</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" data-ar="المنيو" data-en="Menu">المنيو</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-ar="عن القهوة" data-en="About">عن القهوة</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hours" data-ar="مواعيد العمل" data-en="Opening Hours">مواعيد
+                            العمل</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-ar="التواصل" data-en="Contact">التواصل</a>
+                    </li>
+
+                </ul>
+
+                <button class="language-btn" id="languageBtn">
+                    English
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <span class="hero-small">ALI ELDAYERY COFFEE</span>
+
+                <h1 data-ar="قهوتك لها حكاية تانية" data-en="Your Coffee, Your Story">
+                    قهوتك لها حكاية تانية
+                </h1>
+
+                <p data-ar="استمتع بأجمل لحظاتك مع فنجان قهوة مميز"
+                    data-en="Enjoy every moment with a special cup of coffee">
+                    استمتع بأجمل لحظاتك مع فنجان قهوة مميز
+                </p>
+
+                <a href="#menu" class="main-btn" data-ar="اكتشف المنيو" data-en="Explore Menu">
+                    اكتشف المنيو
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Menu -->
+    <section class="menu-section section-padding" id="menu">
+
+        <div class="container">
+
+            <div class="section-title reveal">
+
+                <span>OUR MENU</span>
+
+                <h2 data-ar="منيو المشروبات" data-en="Our Menu">
+                    منيو المشروبات
+                </h2>
+
+                <p data-ar="اختار مشروبك المفضل واستمتع بطعمه" data-en="Choose your favorite drink and enjoy">
+                    اختار مشروبك المفضل واستمتع بطعمه
+                </p>
+
+            </div>
+
+            <div class="row g-4" id="menuContainer"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about-section section-padding" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-6 reveal">
+
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=900" class="about-img"
+                        alt="Coffee shop">
+
+                </div>
+
+                <div class="col-md-6 reveal">
+
+                    <span class="section-label">ABOUT US</span>
+
+                    <h2 data-ar="علي الدائري" data-en="Ali Eldayery Coffee">
+                        علي الدائري
+                    </h2>
+
+                    <p data-ar="مكانك المفضل للقهوة واللمة الحلوة. استمتع بمشروبك المفضل في أجواء مميزة."
+                        data-en="Your favorite place for coffee and good company. Enjoy your favorite drink in a special atmosphere.">
+                        مكانك المفضل للقهوة واللمة الحلوة. استمتع بمشروبك المفضل في أجواء مميزة.
+                    </p>
+
+                    <a href="#contact" class="main-btn" data-ar="زورنا" data-en="Visit Us">
+                        زورنا
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Opening Hours -->
+    <section class="hours-section section-padding" id="hours">
+
+        <div class="container text-center reveal">
+
+            <span class="section-label">OPENING HOURS</span>
+
+            <h2 data-ar="مواعيد العمل" data-en="Opening Hours">
+                مواعيد العمل
+            </h2>
+
+            <p class="hours-subtitle" data-ar="مستنيين زيارتك كل يوم" data-en="We are waiting for your visit">
+                مستنيين زيارتك كل يوم
+            </p>
+
+            <div class="hours-card">
+
+                <div class="hours-row">
+                    <span data-ar="السبت" data-en="Saturday">السبت</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span data-ar="الأحد" data-en="Sunday">الأحد</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span data-ar="الاثنين" data-en="Monday">الاثنين</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span data-ar="الثلاثاء" data-en="Tuesday">الثلاثاء</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span data-ar="الأربعاء" data-en="Wednesday">الأربعاء</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span data-ar="الخميس" data-en="Thursday">الخميس</span>
+                    <strong data-ar="٥ صباحًا - ٣ مساءً" data-en="5 AM - 3 PM">٥ صباحًا - ٣ مساءً</strong>
+                </div>
+
+                <div class="hours-row friday">
+                    <span data-ar="الجمعة" data-en="Friday">الجمعة</span>
+                    <strong data-ar="إجازة" data-en="Closed">إجازة</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact-section section-padding" id="contact">
+
+        <div class="container text-center reveal">
+
+            <span class="section-label">CONTACT US</span>
+
+            <h2 data-ar="يسعدنا تواصلك معنا" data-en="We'd Love To Hear From You">
+                يسعدنا تواصلك معنا
+            </h2>
+
+            <p>+20 11 13957781</p>
+
+            <div class="contact-buttons">
+
+                <a href="https://wa.me/201113957781" target="_blank" rel="noopener" class="main-btn">
+                    WhatsApp
+                </a>
+
+                <a href="tel:+201113957781" class="outline-btn" data-ar="اتصل بنا" data-en="Call Us">
+                    اتصل بنا
+                </a>
+
+            </div>
+
+            <div class="location-box">
+
+                <h3 data-ar="موقعنا" data-en="Our Location">
+                    موقعنا
+                </h3>
+
+                <p data-ar="نازلة القومية على الدائري" data-en="Al Qawmia Exit, Ring Road">
+                    نازلة القومية على الدائري
+                </p>
+
+                <a href="https://maps.app.goo.gl/5G3twi8MtSJ75vVm8?g_st=ac" target="_blank" rel="noopener"
+                    class="main-btn" data-ar="افتح موقعنا على الخريطة" data-en="Open Google Maps">
+                    افتح موقعنا على الخريطة
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>ALI ELDAYERY COFFEE</h3>
+
+        <p data-ar="قهوتك لها حكاية تانية" data-en="Your Coffee, Your Story">
+            قهوتك لها حكاية تانية
+        </p>
+
+        <p>لمعرفة أحدث العروض، تواصل معنا عبر الواتساب </p>
+
+    </footer>
+
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/201113957781" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+        ☎
+    </a>
+
+
+    <!-- Back To Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
